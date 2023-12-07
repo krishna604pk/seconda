@@ -1,0 +1,167 @@
+a
+{
+    text-decoration: none;
+}
+
+.navlinks
+{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    background-color: black;
+    position: fixed;
+    top: 0;
+
+    @media screen and (max-width: 720px)
+    {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        height: 5vh;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        background-color: black;
+        position: fixed;
+        top: 0;
+    }
+}
+
+nav
+{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+    @media screen and (max-width: 720px)
+    {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.buttonnav
+{
+    width: 13%;
+    height: 80%;
+    background-color: black;
+    color: white;
+    margin-left: 0.3%;
+    margin-right: 0.3%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.4vh;
+
+    @media screen and (max-width: 720px)
+    {
+        width: 13%;
+        height: 80%;
+        background-color: black;
+        color: white;
+        margin-left: 0.3%;
+        margin-right: 0.3%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        padding-left: 0.5vw;
+        padding-right: 0.5vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.2vh;
+    }
+}
+
+.n
+{
+    width: 32%;
+    height: 100%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.name
+{
+    text-align: left;
+    padding-left: 20%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3vh;
+
+    @media screen and (max-width: 720px)
+    {
+        text-align: left;
+        padding-left: 20%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 1.5vh;
+    }
+}
+
+.introduction
+{
+    padding-top: 10vh;
+
+    @media screen and (max-width: 720px)
+    {
+        padding-top: 5vh;
+    }
+}
+
+.aboutme
+{
+    padding-top: 10vh;
+
+    @media screen and (max-width: 720px)
+    {
+        padding-top: 5vh;
+    }
+}
+
+.projects
+{
+    padding-top: 10vh;
+
+    @media screen and (max-width: 720px)
+    {
+        padding-top: 5vh;
+    }
+}
+
+.education
+{
+    padding-top: 10vh;
+
+    @media screen and (max-width: 720px)
+    {
+        padding-top: 5vh;
+    }
+}
+
+.contactme
+{
+    padding-top: 10vh;
+
+    @media screen and (max-width: 720px)
+    {
+        padding-top: 5vh;
+    }
+}
