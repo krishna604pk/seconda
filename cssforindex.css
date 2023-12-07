@@ -8,7 +8,7 @@ a
     display: flex;
     flex-direction: row;
     width: 100vw;
-    height: 10vh;
+    height: 5vw;
     align-items: center;
     justify-content: space-between;
     padding-left: 2vw;
@@ -16,21 +16,6 @@ a
     background-color: black;
     position: fixed;
     top: 0;
-
-    @media screen and (max-width: 720px)
-    {
-        display: flex;
-        flex-direction: row;
-        width: 100vw;
-        height: 2vh;
-        align-items: center;
-        justify-content: space-between;
-        padding-left: 2vw;
-        padding-right: 2vw;
-        background-color: black;
-        position: fixed;
-        top: 0;
-    }
 }
 
 nav
@@ -41,16 +26,6 @@ nav
     height: 100%;
     align-items: center;
     justify-content: center;
-
-    @media screen and (max-width: 720px)
-    {
-        display: flex;
-        flex-direction: row;
-        width: 60%;
-        height: 100%;
-        align-items: center;
-        justify-content: center;
-    }
 }
 
 .buttonnav
@@ -69,26 +44,7 @@ nav
     align-items: center;
     justify-content: center;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 2.4vh;
-
-    @media screen and (max-width: 720px)
-    {
-        width: 13%;
-        height: 80%;
-        background-color: black;
-        color: white;
-        margin-left: 0.3%;
-        margin-right: 0.3%;
-        margin-top: 10%;
-        margin-bottom: 10%;
-        padding-left: 0.5vw;
-        padding-right: 0.5vw;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 0.5vh;
-    }
+    font-size: 1.2vw;
 }
 
 .n
@@ -105,63 +61,30 @@ nav
     text-align: left;
     padding-left: 20%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 3vh;
-
-    @media screen and (max-width: 720px)
-    {
-        text-align: left;
-        padding-left: 20%;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 0.6vh;
-    }
+    font-size: 1.5vw;
 }
 
 .introduction
 {
-    padding-top: 10vh;
-
-    @media screen and (max-width: 720px)
-    {
-        padding-top: 2vh;
-    }
+    padding-top: 5vw;
 }
 
 .aboutme
 {
-    padding-top: 10vh;
-
-    @media screen and (max-width: 720px)
-    {
-        padding-top: 2vh;
-    }
+    padding-top: 5vw;
 }
 
 .projects
 {
-    padding-top: 10vh;
-
-    @media screen and (max-width: 720px)
-    {
-        padding-top: 2vh;
-    }
+    padding-top: 5vw;
 }
 
 .education
 {
-    padding-top: 10vh;
-
-    @media screen and (max-width: 720px)
-    {
-        padding-top: 2vh;
-    }
+    padding-top: 5vw;
 }
 
 .contactme
 {
-    padding-top: 10vh;
-
-    @media screen and (max-width: 720px)
-    {
-        padding-top: 2vh;
-    }
+    padding-top: 5vw;
 }
