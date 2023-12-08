@@ -16,6 +16,7 @@ a
     background-color: black;
     position: fixed;
     top: 0;
+    left: 0;
 }
 
 nav
@@ -26,16 +27,17 @@ nav
     height: 100%;
     align-items: center;
     justify-content: center;
+    padding-right: 5%;
 }
 
 .buttonnav
 {
-    width: 13%;
+    width: 20%;
     height: 80%;
     background-color: black;
     color: white;
-    margin-left: 0.3%;
-    margin-right: 0.3%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
     margin-top: 10%;
     margin-bottom: 10%;
     padding-left: 0.5vw;
@@ -44,13 +46,20 @@ nav
     align-items: center;
     justify-content: center;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
+}
+
+.buttonnav:hover
+{
+    background-color: greenyellow;
+    color: black;
 }
 
 .n
 {
     width: 32%;
     height: 100%;
+    padding-bottom: 0.8%;
     color: white;
     align-items: center;
     justify-content: center;
@@ -61,7 +70,7 @@ nav
     text-align: left;
     padding-left: 20%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1.5vw;
+    font-size: 1.8vw;
 }
 
 .introduction
@@ -87,4 +96,113 @@ nav
 .contactme
 {
     padding-top: 5vw;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 720px)
+{
+a
+{
+    text-decoration: none;
+}
+
+.navlinks
+{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 7vw;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav
+{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-right: 5%;
+}
+
+.buttonnav
+{
+    width: 20%;
+    height: 80%;
+    background-color: black;
+    color: white;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5vw;
+}
+
+.buttonnav:hover
+{
+    background-color: greenyellow;
+    color: black;
+}
+
+.n
+{
+    width: 12%;
+    height: 100%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.name
+{
+    text-align: left;
+    padding-left: 20%;
+    padding-top: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.8vw;
+}
+
+.introduction
+{
+    padding-top: 5vw;
+}
+
+.aboutme
+{
+    padding-top: 5vw;
+}
+
+.projects
+{
+    padding-top: 5vw;
+}
+
+.education
+{
+    padding-top: 5vw;
+}
+
+.contactme
+{
+    padding-top: 5vw;
+}
 }
