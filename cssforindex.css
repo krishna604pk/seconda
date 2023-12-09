@@ -166,7 +166,7 @@ nav
     margin-left: 10vw;
     margin-right: 10vw;
     margin-top: 0vw;
-    margin-bottom: 3vw;
+    margin-bottom: 10vw;
     padding: 1vw;
     width: 20vw;
     height: 30vw;
@@ -181,14 +181,7 @@ nav
     box-shadow: 0.7vw 0.7vw 0.8vw rgba(0, 0, 0, 0.8);
 }
 
-/* .verticalbluebar
-{
-    width: 2vw;
-    height: 22vw;
-    margin-left: 2vw;
-    margin-right: 2vw;
-    background-color: rgb(23, 1, 185);
-} */
+
 
 .abtmecard:hover
 {
@@ -203,9 +196,77 @@ nav
     font-size: 3vw;
 }
 
+.verticalgoldbar
+{
+    width: 2vw;
+    height: 36vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    background-color: rgb(200, 200, 36);
+}
+
+.silverbar
+{
+    width: 30vw;
+    height: 2vw;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+    background-color: rgb(150, 150, 150);
+}
+
+.silverseperation
+{
+    width: 68vw;
+    display: flex;
+    justify-content: space-between;
+}
+
 .projects
 {
     padding-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectinside
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectfirstrow
+{
+    display: flex;
+    align-items: center;
+}
+
+.projectsecondrow
+{
+    display: flex;
+    align-items: center;
+}
+
+.projectcard
+{
+    width: 20vw;
+    height: 30vw;
+    background-color: white;
+    border: solid;
+    border-color: gray;
+    border-radius: 0.5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 0vw;
+    padding: 1vw;
+}
+
+.projectcard p
+{
+    color: black;
 }
 
 .education
