@@ -289,6 +289,54 @@ nav
 .education
 {
     padding-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.edupart
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5vw;
+    transition: 0.5s;
+}
+
+.edupart:hover
+{
+    background-color: rgb(69, 64, 57);
+}
+
+.circle
+{
+    width: 8vw;
+    height: 8vw;
+    border-radius: 4vw;
+    background-color: grey;
+    margin-right: 5vw;
+    margin-left: 4vw;
+}
+
+.textpartedu
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 3vw;
+    padding: 1vw;
+}
+
+.textpartedu p
+{
+    color: white;
+    font-size: 1.5vw;
+}
+
+.textpartedu h1
+{
+    color: white;
+    font-size: 2vw;
 }
 
 .contactme
