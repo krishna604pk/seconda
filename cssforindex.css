@@ -226,6 +226,8 @@ nav
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-size: cover;
+    transition: 3s;
 }
 
 .projectinside
@@ -252,7 +254,7 @@ nav
 {
     width: 20vw;
     height: 30vw;
-    background-color: white;
+    background: linear-gradient(to bottom, rgb(227, 227, 227), rgb(103, 103, 103));
     border: solid;
     border-color: gray;
     border-radius: 0.5vw;
@@ -260,6 +262,23 @@ nav
     margin-right: 5vw;
     margin-top: 0vw;
     padding: 1vw;
+    transition: 3s;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.projectcard:hover
+{
+    width: 22vw;
+    height: 34vw;
+    margin-top: 3vw;
+}
+
+.projectcard:hover p:first-child
+{
+    text-decoration: underline;
+    font-size: 3vw;
 }
 
 .projectcard p
@@ -379,3 +398,4 @@ form
     margin-left: 2vw;
     margin-right: 2vw;
 }
+
